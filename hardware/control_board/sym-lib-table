@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Nixie_Library")(type "KiCad")(uri "${KIPRJMOD}/../symbols/Nixie_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Nixies_US")(type "KiCad")(uri "${KIPRJMOD}/../symbols/nixies-us.kicad_sym")(options "")(descr ""))
+)

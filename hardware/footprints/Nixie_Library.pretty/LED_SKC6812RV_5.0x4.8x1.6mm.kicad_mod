@@ -1,0 +1,199 @@
+(footprint "LED_SKC6812RV_5.0x4.8x1.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f64d5ffd-c6a8-4e28-8cfe-977e744e7b82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_SKC6812RV_5.0x4.8x1.6mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0b5a11a9-c7a4-46b3-a8df-cf28c3342d2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 6.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae243507-706d-4e3a-a81c-28882978033a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 6.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76725f54-99c8-410a-afe4-2b27c9e6c79d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 6.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "679d7658-e1df-49d5-97e1-558350df4e32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -2.3)
+		(end -3.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f2bd751-b79f-48e1-bf40-500edbc6a125")
+	)
+	(fp_line
+		(start -3.3 -2.3)
+		(end 0 -2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "611c70d1-e880-4cd8-a058-7bbf707c448d")
+	)
+	(fp_line
+		(start -3.3 2.3)
+		(end 3.3 2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cf02f0ba-f6ec-4450-81ea-250278518455")
+	)
+	(fp_line
+		(start 3.3 2.3)
+		(end 3.3 -2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f70ee119-ae86-484e-955e-988e49d4753b")
+	)
+	(fp_poly
+		(pts
+			(xy -3.425 1.6) (xy -3.775 1.9) (xy -3.775 1.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e11b9988-612a-4610-85d7-d7e08b199eca")
+	)
+	(fp_rect
+		(start -3.475 -2.475)
+		(end 3.475 2.475)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "42078008-e326-44ba-8067-2e0eca19ad6d")
+	)
+	(fp_circle
+		(center 0 -0.025)
+		(end 1.525205 -0.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "02365b19-24b5-4e26-ba64-9707dc83ef90")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1261edaf-1105-4a61-9ecd-9b462a4887a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.35 1.6)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "158f888c-dc58-478f-870d-81ca457174c7")
+	)
+	(pad "2" smd roundrect
+		(at -2.35 -1.6)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7eb674b9-0eab-4d6e-bb5a-0736ccd2f17e")
+	)
+	(pad "3" smd roundrect
+		(at 2.35 -1.6)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a88ff4ff-09ee-4067-a22a-f2232746c475")
+	)
+	(pad "4" smd roundrect
+		(at 2.35 1.6)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "bdf7464b-ca43-441b-9569-207a27635bd1")
+	)
+	(model "/home/hu3/arduinoboard/Nixie_Clock_V1/models/WS2812B.step"
+		(offset
+			(xyz -2.5 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

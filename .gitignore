@@ -1,0 +1,13 @@
+# General KiCAD Junk Files
+*.lck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_wks-bak
+*.kicad_sym-bak
+*.kicad_mod-bak
+*.kicad_dru-bak
+fp-info-cache
+
+# KiCAD Project Backup folders
+/hardware/control_board/control_board-backups
+/hardware/clock_face/clock_face-backups

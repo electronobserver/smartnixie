@@ -1,0 +1,150 @@
+(footprint "Potentiometer-3313J"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.525 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f2377272-2601-4659-89ef-91530036a823")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer-3313J"
+		(at 0 1.925 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d5269421-583b-4181-90ff-3d9bcafbfe75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6ad5844-4d2f-4b9f-8a91-8abc70a67c81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "550bdc70-6cfb-4238-8cdb-fa23317d125e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75f0ab73-1919-40c4-81f3-7a9c8cade05e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.5 -4.25)
+		(end 2.5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "478b1f2f-9730-465b-9072-693ecd9a4087")
+	)
+	(fp_rect
+		(start -2.75 -4.5)
+		(end 2.75 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5d8023a7-daea-43b9-8f52-ec5b2d7f243e")
+	)
+	(fp_circle
+		(center 0 -1.651996)
+		(end 2.348004 -1.651996)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8d6cfa8f-abe0-4a08-8593-46683bd9f072")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.075 -1.375 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a45eace6-7728-4238-9c19-03703816ac2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.15 0)
+		(size 1.1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0787ef3b-9188-43c7-82de-46a3c69526c6")
+	)
+	(pad "2" smd roundrect
+		(at 0 -2.9)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7be5acb2-79d8-47e5-979d-3fdbd206a252")
+	)
+	(pad "3" smd roundrect
+		(at -1.15 0)
+		(size 1.1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0594e805-50bd-4761-a6cd-bbd8e0059881")
+	)
+	(model "${PRJMODEL_DIR}/3314J-1-100E.STEP"
+		(offset
+			(xyz 0 1.5 0)
+		)
+		(scale
+			(xyz 0.9 0.9 0.9)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
