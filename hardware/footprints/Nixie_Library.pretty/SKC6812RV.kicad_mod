@@ -1,8 +1,10 @@
-(footprint "LED_SKC6812RV_5.0x4.8x1.6mm"
+(footprint "SKC6812RV"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr " Intelligent external control surface mount LED 0.2W 5.0mm x 4.8mm x 1.6mm ")
+	(tags "LED")
 	(property "Reference" "REF**"
 		(at 0 -3.4 0)
 		(unlocked yes)
@@ -15,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "LED_SKC6812RV_5.0x4.8x1.6mm"
+	(property "Value" "SKC6812RV"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -40,7 +42,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2507/SKC6812RV+LED+Datasheet.pdf"
 		(at 0 6.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -53,7 +55,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "NeoPixels 5050 RGB LED"
 		(at 0 6.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -98,6 +100,46 @@
 		(uuid "cf02f0ba-f6ec-4450-81ea-250278518455")
 	)
 	(fp_line
+		(start -2.25 0)
+		(end -0.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "880c743f-4191-49f6-a818-9acad479ae4e")
+	)
+	(fp_line
+		(start -0.75 0)
+		(end -0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "594ff90f-8dcf-4b37-b3af-d75500cba197")
+	)
+	(fp_line
+		(start -0.75 0)
+		(end -0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e3eca809-e20a-4c75-aa34-9c5b3a12b32c")
+	)
+	(fp_line
+		(start 0.75 0)
+		(end 2.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f4211475-6239-469c-a7be-de1f07dff77a")
+	)
+	(fp_line
 		(start 3.3 2.3)
 		(end 3.3 -2.3)
 		(stroke
@@ -118,6 +160,18 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "e11b9988-612a-4610-85d7-d7e08b199eca")
+	)
+	(fp_poly
+		(pts
+			(xy -0.75 0) (xy 0.75 -1) (xy 0.75 1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8ff183db-0e93-47f5-9b86-8e688b9c81ab")
 	)
 	(fp_rect
 		(start -3.475 -2.475)
@@ -185,7 +239,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "bdf7464b-ca43-441b-9569-207a27635bd1")
 	)
-	(model "/home/hu3/arduinoboard/Nixie_Clock_V1/models/WS2812B.step"
+	(model "${PRJMODEL_DIR}/WS2812B.step"
 		(offset
 			(xyz -2.5 -2.5 0)
 		)
