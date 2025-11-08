@@ -581,7 +581,7 @@
       "svg": "",
       "vrml": "../../clock_face.wrl"
     },
-    "page_layout_descr_file": "/home/hu3/hardware/KiCAD_Templates/KDT_Hierarchical/Templates/KDT_Template.kicad_wks"
+    "page_layout_descr_file": "${KIPRJMOD}/../templates/KDT_Template_Fab.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -689,7 +689,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "/home/hu3/hardware/KiCAD_Templates/KDT_Hierarchical/Templates/KDT_Template.kicad_wks",
+    "page_layout_descr_file": "${KIPRJMOD}/../templates/KDT_Template.kicad_wks",
     "plot_directory": "../../../../Downloads/ReviewClockFace/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -712,6 +712,8 @@
   ],
   "text_variables": {
     "BOARD_NAME": "Clock Face",
+    "DESIGNER": "Hugo Takizala",
+    "DOC_TYPE": "Gerber File",
     "PROJECT_NAME": "Smart Nixie",
     "REVIEWER": "N/A",
     "REVISION": "1.0",

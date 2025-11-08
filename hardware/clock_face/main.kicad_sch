@@ -10891,7 +10891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nixie_Library:LED_SKC6812RV_5.0x4.8x1.6mm"
+		(property "Footprint" "Nixie Library:SKC6812RV"
 			(at 175.26 133.35 0)
 			(effects
 				(font
@@ -10970,7 +10970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nixie_Library:LED_SKC6812RV_5.0x4.8x1.6mm"
+		(property "Footprint" "Nixie Library:SKC6812RV"
 			(at 281.94 133.35 0)
 			(effects
 				(font
@@ -11049,7 +11049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nixie_Library:LED_SKC6812RV_5.0x4.8x1.6mm"
+		(property "Footprint" "Nixie Library:SKC6812RV"
 			(at 138.43 133.35 0)
 			(effects
 				(font
@@ -11206,7 +11206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nixie_Library:INS-1"
+		(property "Footprint" "Nixie_Library:INS_1"
 			(at 312.42 226.06 90)
 			(effects
 				(font
@@ -11282,7 +11282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nixie_Library:INS-1"
+		(property "Footprint" "Nixie_Library:INS_1"
 			(at 287.02 226.06 90)
 			(effects
 				(font
@@ -11430,7 +11430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nixie_Library:INS-1"
+		(property "Footprint" "Nixie_Library:INS_1"
 			(at 274.32 226.06 90)
 			(effects
 				(font
@@ -11795,7 +11795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nixie_Library:LED_SKC6812RV_5.0x4.8x1.6mm"
+		(property "Footprint" "Nixie Library:SKC6812RV"
 			(at 210.82 133.35 0)
 			(effects
 				(font
@@ -12153,7 +12153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Nixie_Library:IN_12A_Socket"
+		(property "Footprint" "Nixie_Library:IN_12A"
 			(at 107.696 262.636 0)
 			(effects
 				(font
@@ -12787,7 +12787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nixie_Library:LED_SKC6812RV_5.0x4.8x1.6mm"
+		(property "Footprint" "Nixie Library:SKC6812RV"
 			(at 246.38 133.35 0)
 			(effects
 				(font
@@ -13105,7 +13105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Nixie_Library:IN_12A_Socket"
+		(property "Footprint" "Nixie Library:IN_12A"
 			(at 215.646 262.636 0)
 			(effects
 				(font
@@ -14198,7 +14198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nixie_Library:INS-1"
+		(property "Footprint" "Nixie_Library:INS_1"
 			(at 299.72 226.06 90)
 			(effects
 				(font
@@ -15207,7 +15207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Nixie_Library:IN_12A_Socket"
+		(property "Footprint" "Nixie Library:IN_12A"
 			(at 107.696 216.916 0)
 			(effects
 				(font
@@ -16403,7 +16403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Nixie_Library:IN_12A_Socket"
+		(property "Footprint" "Nixie Library:IN_12A"
 			(at 215.646 215.646 0)
 			(effects
 				(font
@@ -16509,7 +16509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Nixie_Library:IN_12A_Socket"
+		(property "Footprint" "Nixie Library:IN_12A"
 			(at 161.036 215.646 0)
 			(effects
 				(font
@@ -16700,7 +16700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Nixie_Library:IN_12A_Socket"
+		(property "Footprint" "Nixie Library:IN_12A"
 			(at 161.036 262.636 0)
 			(effects
 				(font
@@ -16947,7 +16947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nixie_Library:LED_SKC6812RV_5.0x4.8x1.6mm"
+		(property "Footprint" "Nixie Library:SKC6812RV"
 			(at 101.6 133.35 0)
 			(effects
 				(font
